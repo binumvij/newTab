@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .dark{
+  background-color: #0a0a0a;
+} */
+@font-face {
+  font-family: 'Poiret One';
+  src: local('Poiret One'),
+    url('assets/Poiret_One/') format('truetype');
+}
+
