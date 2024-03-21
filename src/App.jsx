@@ -27,8 +27,8 @@ const App = () => {
     },
     {
       icon: 'https://img.icons8.com/color/96/google-keep.png',
-      link: 'https://mail.google.com/mail/u/0/#inbox',
-      title: 'Gmail',
+      link: 'https://keep.google.com/',
+      title: 'Keep',
     },
     {
       icon: 'https://img.icons8.com/fluency/48/youtube-music.png',
