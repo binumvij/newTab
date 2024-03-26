@@ -21,7 +21,7 @@ const Clock = () => {
     }, []);
 
     return (
-        <div className="font-bold text-6xl font-display text-primary-content h-96 flex justify-center items-center font-poiret-one">
+        <div className="font-bold text-6xl font-display h-72 flex justify-center items-center font-poiret-one text-slate-50">
             {time}
         </div>
     );

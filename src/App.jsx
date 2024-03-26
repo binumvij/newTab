@@ -41,7 +41,11 @@ const App = () => {
       link: 'https://www.amazon.in/',
       title: 'Amazon',
     },
-
+    {
+      icon: 'https://img.icons8.com/fluency/144/google-docs--v2.png',
+      link: 'https://docs.google.com/',
+      title: 'Docs',
+    },
 
 
 
