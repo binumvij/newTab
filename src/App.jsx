@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Clock from './components/Clock';
 import FavoriteLinksList from './components/FavoriteLinksList';
+import SearchBar from './components/search';
 
 const App = () => {
   const favoriteLinks = [
@@ -55,7 +56,9 @@ const App = () => {
     <BrowserRouter>
       <>
         <Clock />
+        <SearchBar />
         <FavoriteLinksList links={favoriteLinks} />
+        
       </>
     </BrowserRouter>
   );
